@@ -43,7 +43,7 @@ def eyeimg(img):
     # return result
 
 
-eyeimg(img)
+# eyeimg(img)
 
 # final = np.hstack((img, eyeimg(img)))
 # show(final)
