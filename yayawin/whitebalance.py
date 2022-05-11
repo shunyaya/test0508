@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-
+# gray world
 def show(final):
     print('display')
     cv.imshow('Temple', final)
