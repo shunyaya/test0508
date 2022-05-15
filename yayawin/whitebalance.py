@@ -7,7 +7,7 @@ def show(final):
     cv.waitKey(0)
     cv.destroyAllWindows()
 
-img = cv.imread('media\\eye.jpg')
+img = cv.imread('media\\test2.jpg')
 
 def white_balance_loops(img):
     result = cv.cvtColor(img, cv.COLOR_BGR2LAB)
